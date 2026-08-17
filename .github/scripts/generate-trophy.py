@@ -142,8 +142,8 @@ print(f"Level: {level}")
 # Generate SVG
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
 width="1000"
-height="420"
-viewBox="0 0 1000 420">
+height="460"
+viewBox="0 0 1000 460">
 
 <defs>
 
