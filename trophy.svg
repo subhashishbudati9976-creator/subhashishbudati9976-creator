@@ -178,7 +178,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="210"
+    y="205"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -189,11 +189,63 @@ viewBox="0 0 1000 420">
 </text>
 
 
+<!-- Progress bar background -->
+
+<rect
+    x="570"
+    y="220"
+    width="260"
+    height="14"
+    rx="7"
+    fill="#334155"/>
+
+
+<!-- Progress bar -->
+
+<rect
+    x="570"
+    y="220"
+    width="182.0"
+    height="14"
+    rx="7"
+    fill="url(#gold)"/>
+
+
+<!-- Progress percentage -->
+
+<text
+    x="850"
+    y="233"
+    text-anchor="start"
+    fill="#cbd5e1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14">
+
+    70%
+
+</text>
+
+
+<!-- Next rank -->
+
+<text
+    x="700"
+    y="260"
+    text-anchor="middle"
+    fill="#94a3b8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15">
+
+    Next: RISING STAR
+
+</text>
+
+
 <!-- Stats -->
 
 <text
     x="700"
-    y="250"
+    y="285"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -206,7 +258,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="280"
+    y="315"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -219,7 +271,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="310"
+    y="345"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -232,7 +284,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="340"
+    y="375"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -247,7 +299,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="500"
-    y="375"
+    y="430"
     text-anchor="middle"
     fill="#64748b"
     font-family="Arial, Helvetica, sans-serif"
