@@ -314,14 +314,20 @@ software development, AI, NLP and DevOps.
 <div align="center">
 
 | 🔍 Area | 🚀 Focus |
-|:---:|:---:|
-| 🤖 AI & NLP | Building practical AI-powered applications |
-| ⚙️ DevOps | CI/CD, Docker, Jenkins & GitHub Actions |
-| ☁️ Cloud & Deployment | Understanding modern deployment workflows |
-| 💻 Software Development | Strengthening DSA & problem-solving |
-| 🗄️ Databases | Working with SQL and database-backed applications |
+|:---:|:---|
+| 🤖 **AI & NLP** | Exploring practical AI-powered applications and NLP |
+| ⚙️ **DevOps** | CI/CD, Docker, Jenkins & GitHub Actions |
+| ☁️ **Cloud & Deployment** | Learning modern deployment and automation workflows |
+| 💻 **Software Development** | Strengthening DSA, programming & problem-solving |
+| 🗄️ **Databases** | Building database-backed applications with SQL |
 
 </div>
+
+<br>
+
+<p align="center">
+<i>Learning by building. Improving by experimenting.</i>
+</p>
 
 ---
 
@@ -332,7 +338,5 @@ software development, AI, NLP and DevOps.
 <i>Building • Learning • Deploying • Improving</i>
 
 <br><br>
-
-<img src="https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=Profile+Views&color=7AA2F7&style=flat-square">
 
 </div>
