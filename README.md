@@ -2,15 +2,7 @@
 
 <img src="./profile/banner.svg" width="100%">
 
-</div>
-
-<br>
-
-<div align="center">
-
-<br>
-
-<div align="center">
+<br><br>
 
 <img src="https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=PROFILE+VIEWS&color=7AA2F7&style=for-the-badge">
 
@@ -20,9 +12,7 @@
 
 <img src="https://img.shields.io/github/repo-size/subhashishbudati9976-creator/subhashishbudati9976-creator?label=PROFILE%20REPO&style=for-the-badge&color=9B6CFF">
 
-</div>
-
-<br>
+<br><br>
 
 # HEY AMIGOS, welcome aboard — grab a coffee ☕ and check out what I'm building
 
@@ -84,15 +74,9 @@ while strengthening my foundations in **DSA, databases, and programming**.
 
 ### 🤖 AI & DATA
 
-<table>
-<tr>
-<td align="center" width="100">
-🧠<br>
-<b>NLP</b>
-</td>
-</tr>
-</table>
-
+<p>
+🧠 <b>NLP</b>
+</p>
 </div>
 
 <p align="center">
