@@ -200,29 +200,86 @@ automation, artificial intelligence, and deployment.
 
 <div align="center">
 
-### 🤖 AI-Driven Chatbot as a Virtual Assistant
+<h3>🤖 AI-DRIVEN CHATBOT AS A VIRTUAL ASSISTANT</h3>
 
-An AI-powered virtual assistant built to provide intelligent conversational interactions using the Google Gemini API, with a focus on deployment and DevOps practices.
+<p>
+An AI-powered virtual assistant designed for intelligent conversational
+interaction using the Google Gemini API, with a focus on deployment
+and DevOps practices.
+</p>
 
-**Tech:** Python • Gemini API • SQLite • Docker • Docker Compose • Jenkins • GitHub Actions • Prometheus • Grafana
+<p>
+<code>Python</code> • <code>Gemini API</code> • <code>SQLite</code> •
+<code>Docker</code> • <code>Jenkins</code> • <code>GitHub Actions</code>
+</p>
 
-[🔗 View Project](https://github.com/subhashishbudati9976-creator/AI-Driven-Chatbot-as-a-Virtual-Assistant)
+<p>
+<a href="https://github.com/subhashishbudati9976-creator/AI-Driven-Chatbot-as-a-Virtual-Assistant">
+🔗 <b>View Project</b>
+</a>
+</p>
 
----
+<br>
 
-### 🚆 Railway Reservation System
+<hr width="45%">
 
-A collaborative software project implementing railway search, reservation, cancellation, payment and administrative workflows with database-backed CRUD operations.
+<br>
 
-**Tech:** HTML • CSS • JavaScript • Node.js • Express.js • PostgreSQL • Supabase
+<h3>🚆 RAILWAY RESERVATION SYSTEM</h3>
 
----
+<p>
+A collaborative database-backed application implementing railway search,
+reservation, cancellation, payment and administrative workflows.
+</p>
 
-### 🛰️ ODA-CMS
+<p>
+<code>HTML</code> • <code>CSS</code> • <code>JavaScript</code> •
+<code>PostgreSQL</code> • <code>Supabase</code>
+</p>
 
-A collaborative academic project focused on orbital data processing, simulation and visualization, including 3D visualization and collision-risk analysis.
+<p>
+🔗 <b>Collaborative Academic Project</b>
+</p>
 
-**Tech:** React • FastAPI • PostgreSQL • WebGL • Python
+<br>
+
+<hr width="45%">
+
+<br>
+
+<h3>🛰️ ODA-CMS</h3>
+
+<p>
+A collaborative academic project focused on orbital data processing,
+simulation and visualization, including 3D visualization and
+collision-risk analysis.
+</p>
+
+<p>
+<code>React</code> • <code>Python</code> • <code>FastAPI</code> •
+<code>PostgreSQL</code> • <code>WebGL</code>
+</p>
+
+<p>
+🔗 <b>Collaborative Academic Project</b>
+</p>
+
+<br>
+
+<hr width="45%">
+
+<br>
+
+<h3>🧪 MORE PROJECTS</h3>
+
+<p>
+Currently building and experimenting with new projects across
+software development, AI, NLP and DevOps.
+</p>
+
+<p>
+🚧 <i>More coming soon...</i>
+</p>
 
 </div>
 
@@ -234,17 +291,17 @@ A collaborative academic project focused on orbital data processing, simulation 
 
 <a href="https://www.linkedin.com/in/subhashish-budati-685664427" target="_blank">
 <img src="https://skillicons.dev/icons?i=linkedin" width="50"><br>
-<p>Subhashish Budati</p>
+<b>Subhashish Budati</b>
 </a>
 
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://github.com/subhashishbudati9976-creator" target="_blank">
-<img src="https://skillicons.dev/icons?i=github" width="50"><br>
-<p>subhashishbudati9976-creator</p>
+<img src="https://skillicons.dev/icons?i=github&theme=dark" width="50"><br>
+<b>subhashishbudati9976-creator</b>
 </a>
 
-</div>
+</div><br>
 
 <p align="center">
 <i>Let's connect, collaborate, and build something meaningful.</i>
