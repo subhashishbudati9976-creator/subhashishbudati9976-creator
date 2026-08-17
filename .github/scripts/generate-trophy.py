@@ -1,3 +1,18 @@
+def get_repositories():
+    url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100"
+
+    request = Request(
+        url,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "GitHub-Trophy-Generator"
+        }
+    )
+
+    with urlopen(request) as response:
+        data = response.read().decode("utf-8")
+
+    return json.loads(data)
 import json
 import os
 from pathlib import Path
