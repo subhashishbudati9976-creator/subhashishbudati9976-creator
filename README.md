@@ -24,7 +24,7 @@
 
 <br>
 
-# 👋 WASSUP, I'M SUBHASHISH
+# HEY AMIGOS, welcome aboard — grab a coffee ☕ and check out what I'm building
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&lines=CSE+STUDENT+%7C+DEVELOPER;DEVOPS+%26+AUTOMATION+ENTHUSIAST;AI+%26+NLP+EXPLORER;BUILDING+%7C+LEARNING+%7C+DEPLOYING;TURNING+IDEAS+INTO+PROJECTS+%F0%9F%9A%80" />
 
@@ -44,7 +44,7 @@
 
 ## 👨‍💻 ABOUT ME
 
-I'm a Computer Science Engineering student passionate about software
+I'm Subhashish Budati, a Computer Science Engineering student passionate about software
 development, DevOps, AI, and building practical projects.
 
 Currently exploring the intersection of software development,
@@ -172,27 +172,25 @@ automation, artificial intelligence, and deployment.
 
 ---
 
-## 🌌 CONTRIBUTION UNIVERSE
+## 🧭 CURRENTLY EXPLORING
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/subhashishbudati9976-creator/subhashishbudati9976-creator/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+| 🔍 Area | 🚀 Focus |
+|:---:|:---|
+| 🤖 **AI & NLP** | Exploring practical AI-powered applications and NLP |
+| ⚙️ **DevOps** | CI/CD, Docker, Jenkins & GitHub Actions |
+| ☁️ **Cloud & Deployment** | Learning modern deployment and automation workflows |
+| 💻 **Software Development** | Strengthening DSA, programming & problem-solving |
+| 🗄️ **Databases** | Building database-backed applications with SQL |
+
+</div>
 
 <br>
 
-<i>Every contribution is a step forward.</i>
-
-</div>
-
----
-
-## 🏆 GITHUB ACHIEVEMENTS
-
-<div align="center">
-
-<img src="./profile/trophy.svg" width="100%" />
-
-</div>
+<p align="center">
+<i>Learning by building. Improving by experimenting.</i>
+</p>
 
 ---
 
@@ -285,6 +283,30 @@ software development, AI, NLP and DevOps.
 
 ---
 
+## 🌌 CONTRIBUTION UNIVERSE
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/subhashishbudati9976-creator/subhashishbudati9976-creator/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+
+<br>
+
+<i>Every contribution is a step forward.</i>
+
+</div>
+
+---
+
+## 🏆 GITHUB ACHIEVEMENTS
+
+<div align="center">
+
+<img src="./profile/trophy.svg" width="100%" />
+
+</div>
+
+---
+
 ## 🌐 CONNECT WITH ME
 
 <div align="center">
@@ -309,27 +331,7 @@ software development, AI, NLP and DevOps.
 
 ---
 
-## 🧭 CURRENTLY EXPLORING
-
-<div align="center">
-
-| 🔍 Area | 🚀 Focus |
-|:---:|:---|
-| 🤖 **AI & NLP** | Exploring practical AI-powered applications and NLP |
-| ⚙️ **DevOps** | CI/CD, Docker, Jenkins & GitHub Actions |
-| ☁️ **Cloud & Deployment** | Learning modern deployment and automation workflows |
-| 💻 **Software Development** | Strengthening DSA, programming & problem-solving |
-| 🗄️ **Databases** | Building database-backed applications with SQL |
-
-</div>
-
 <br>
-
-<p align="center">
-<i>Learning by building. Improving by experimenting.</i>
-</p>
-
----
 
 <div align="center">
 
@@ -337,6 +339,8 @@ software development, AI, NLP and DevOps.
 
 <i>Building • Learning • Deploying • Improving</i>
 
-<br><br>
+<br>
+
+`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
 
 </div>
