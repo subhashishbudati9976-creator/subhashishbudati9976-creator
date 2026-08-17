@@ -1,1 +1,107 @@
+from pathlib import Path
+from datetime import datetime
 
+OUTPUT = Path("trophy.svg")
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="45%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="260" rx="24" fill="url(#bg)"/>
+
+  <!-- Trophy -->
+  <g filter="url(#shadow)">
+    <!-- Handles -->
+    <path d="M245 65
+             C180 55, 155 85, 175 125
+             C190 155, 220 155, 245 135"
+          fill="none"
+          stroke="url(#gold)"
+          stroke-width="14"
+          stroke-linecap="round"/>
+
+    <path d="M455 65
+             C520 55, 545 85, 525 125
+             C510 155, 480 155, 455 135"
+          fill="none"
+          stroke="url(#gold)"
+          stroke-width="14"
+          stroke-linecap="round"/>
+
+    <!-- Cup -->
+    <path d="M235 50
+             L465 50
+             L440 135
+             C430 170, 400 190, 350 190
+             C300 190, 270 170, 260 135
+             Z"
+          fill="url(#gold)"/>
+
+    <!-- Stem -->
+    <rect x="335" y="180" width="30" height="35" rx="5"
+          fill="url(#gold)"/>
+
+    <!-- Base -->
+    <rect x="290" y="210" width="120" height="20" rx="8"
+          fill="url(#gold)"/>
+
+    <!-- Star -->
+    <path d="M350 72
+             L360 98
+             L388 99
+             L366 116
+             L374 143
+             L350 127
+             L326 143
+             L334 116
+             L312 99
+             L340 98
+             Z"
+          fill="#fff7ed"/>
+  </g>
+
+  <!-- Text -->
+  <text x="575" y="105"
+        text-anchor="middle"
+        fill="#f8fafc"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="34"
+        font-weight="700">
+    GitHub Trophy
+  </text>
+
+  <text x="575" y="145"
+        text-anchor="middle"
+        fill="#cbd5e1"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="19">
+    Custom • Automated • Open Source
+  </text>
+
+  <text x="575" y="180"
+        text-anchor="middle"
+        fill="#94a3b8"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14">
+    Updated {datetime.utcnow().strftime("%Y-%m-%d")}
+  </text>
+</svg>
+'''
+
+OUTPUT.write_text(svg, encoding="utf-8")
+print(f"Generated {OUTPUT}")
