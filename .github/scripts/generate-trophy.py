@@ -43,6 +43,46 @@ def get_github_stats():
 # Get GitHub profile data
 stats = get_github_stats()
 
+repositories = get_repositories()
+
+total_stars = sum(
+    repo.get("stargazers_count", 0)
+    for repo in repositories
+)
+
+total_forks = sum(
+    repo.get("forks_count", 0)
+    for repo in repositories
+)
+
+public_repos = stats.get("public_repos", 0)
+followers = stats.get("followers", 0)
+
+activity_score = (
+    public_repos * 2
+    + followers * 3
+    + total_stars * 5
+    + total_forks * 4
+)
+
+if activity_score >= 300:
+    level = "LEGENDARY"
+elif activity_score >= 150:
+    level = "MASTER"
+elif activity_score >= 75:
+    level = "RISING STAR"
+elif activity_score >= 25:
+    level = "BUILDER"
+else:
+    level = "ROOKIE"
+
+print(f"Repositories: {public_repos}")
+print(f"Followers: {followers}")
+print(f"Stars: {total_stars}")
+print(f"Forks: {total_forks}")
+print(f"Activity Score: {activity_score}")
+print(f"Level: {level}")
+
 public_repos = stats["public_repos"]
 followers = stats["followers"]
 following = stats["following"]
