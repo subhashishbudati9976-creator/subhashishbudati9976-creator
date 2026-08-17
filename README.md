@@ -201,4 +201,27 @@ A collaborative academic project focused on orbital data processing, simulation 
 **Tech:** React • FastAPI • PostgreSQL • WebGL • Python
 
 </div>
+
 ---
+
+---
+
+## 🌐 CONNECT WITH ME
+
+<div align="center">
+
+<a href="www.linkedin.com/in/subhashish-budati-685664427" target="_blank">
+<img src="https://skillicons.dev/icons?i=linkedin" width="50"><br><p>Subhashish Budati</p>
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://github.com/subhashishbudati9976-creator" target="_blank">
+<img src="https://skillicons.dev/icons?i=github" width="50"><br><p>subhashishbudati9976-creator</p>
+</a>
+
+</div>
+
+<p align="center">
+<i>Let's connect, collaborate, and build something meaningful.</i>
+</p>
