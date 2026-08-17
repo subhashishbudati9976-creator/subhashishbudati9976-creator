@@ -149,6 +149,7 @@ automation, artificial intelligence, and deployment.
 <p align="center">
 <i>Building • Learning • Deploying • Improving</i>
 </p>
+
 ---
 
 ## 🌌 CONTRIBUTION UNIVERSE
@@ -168,8 +169,6 @@ automation, artificial intelligence, and deployment.
 <img src="https://github-profile-trophy.vercel.app/?username=subhashishbudati9976-creator&theme=onedark&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=10" />
 
 </div>
-
----
 
 ---
 
