@@ -6,6 +6,8 @@
 
 Building. Learning. Experimenting. 🚀
 
+![](https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=PROFILE+VIEWS&color=BB86FC&style=for-the-badge)
+
 </div>
 
 ---
