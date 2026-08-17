@@ -156,7 +156,7 @@ automation, artificial intelligence, and deployment.
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/subhashishbudati9976-creator/subhashishbudati9976-creator/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
 
 </div>
 
