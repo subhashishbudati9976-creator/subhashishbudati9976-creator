@@ -175,16 +175,32 @@ automation, artificial intelligence, and deployment.
 
 ## 🚀 FEATURED PROJECTS
 
-### 🤖 AI-Driven Chatbot as a Virtual Assistant
-AI-powered virtual assistant deployed using modern DevOps practices.
+<div align="center">
 
-**Technologies:** Docker • Jenkins • GitHub Actions • Nginx • Gemini API • Prometheus • Grafana
+### 🤖 AI-Driven Chatbot as a Virtual Assistant
+
+An AI-powered virtual assistant built to provide intelligent conversational interactions using the Google Gemini API, with a focus on deployment and DevOps practices.
+
+**Tech:** Python • Gemini API • SQLite • Docker • Docker Compose • Jenkins • GitHub Actions • Prometheus • Grafana
+
+[🔗 View Project](https://github.com/subhashishbudati9976-creator/AI-Driven-Chatbot-as-a-Virtual-Assistant)
+
+---
 
 ### 🚆 Railway Reservation System
-A railway reservation system developed as a collaborative software project.
 
-### 🏢 ODA CMS
-A collaborative content management system project.
+A collaborative software project implementing railway search, reservation, cancellation, payment and administrative workflows with database-backed CRUD operations.
 
+**Tech:** HTML • CSS • JavaScript • Node.js • Express.js • PostgreSQL • Supabase
+
+---
+
+### 🛰️ ODA-CMS
+
+A collaborative academic project focused on orbital data processing, simulation and visualization, including 3D visualization and collision-risk analysis.
+
+**Tech:** React • FastAPI • PostgreSQL • WebGL • Python
+
+</div>
 ---
 
