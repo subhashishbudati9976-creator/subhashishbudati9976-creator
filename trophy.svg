@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-width="1000"
+width="1100"
 height="460"
-viewBox="0 0 1000 460">
+viewBox="0 0 1100 460">
 
 <defs>
 
@@ -40,22 +40,22 @@ viewBox="0 0 1000 460">
 <!-- Background -->
 
 <rect
-    width="1000"
+    width="1100"
     height="460"
     rx="30"
     fill="url(#background)"/>
 
 
-<!-- Trophy -->
+<!-- LEFT SECTION : TROPHY -->
 
 <g filter="url(#shadow)">
 
     <!-- Left handle -->
 
     <path
-        d="M280 85
-           C200 70, 165 110, 190 165
-           C210 205, 250 205, 280 175"
+        d="M190 100
+           C120 85, 90 120, 110 165
+           C125 200, 155 205, 190 180"
         fill="none"
         stroke="url(#trophy)"
         stroke-width="18"
@@ -65,9 +65,9 @@ viewBox="0 0 1000 460">
     <!-- Right handle -->
 
     <path
-        d="M520 85
-           C600 70, 635 110, 610 165
-           C590 205, 550 205, 520 175"
+        d="M410 100
+           C480 85, 510 120, 490 165
+           C475 200, 445 205, 410 180"
         fill="none"
         stroke="url(#trophy)"
         stroke-width="18"
@@ -77,11 +77,11 @@ viewBox="0 0 1000 460">
     <!-- Cup -->
 
     <path
-        d="M270 70
-           L530 70
-           L500 180
-           C490 220, 455 245, 400 245
-           C345 245, 310 220, 300 180
+        d="M180 80
+           L420 80
+           L395 180
+           C385 220, 350 245, 300 245
+           C250 245, 215 220, 205 180
            Z"
         fill="url(#trophy)"/>
 
@@ -89,16 +89,16 @@ viewBox="0 0 1000 460">
     <!-- Star -->
 
     <path
-        d="M400 95
-           L415 130
-           L452 132
-           L423 154
-           L433 190
-           L400 168
-           L367 190
-           L377 154
-           L348 132
-           L385 130
+        d="M300 105
+           L315 140
+           L352 142
+           L323 164
+           L333 200
+           L300 178
+           L267 200
+           L277 164
+           L248 142
+           L285 140
            Z"
         fill="#fff7ed"/>
 
@@ -106,7 +106,7 @@ viewBox="0 0 1000 460">
     <!-- Stem -->
 
     <rect
-        x="380"
+        x="280"
         y="240"
         width="40"
         height="50"
@@ -117,7 +117,7 @@ viewBox="0 0 1000 460">
     <!-- Base -->
 
     <rect
-        x="330"
+        x="230"
         y="285"
         width="140"
         height="25"
@@ -127,11 +127,22 @@ viewBox="0 0 1000 460">
 </g>
 
 
-<!-- Title -->
+<!-- Divider -->
+
+<line
+    x1="550"
+    y1="55"
+    x2="550"
+    y2="405"
+    stroke="#334155"
+    stroke-width="2"/>
+
+
+<!-- RIGHT SECTION -->
 
 <text
-    x="700"
-    y="90"
+    x="825"
+    y="80"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -143,11 +154,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Username -->
-
 <text
-    x="700"
-    y="125"
+    x="825"
+    y="115"
     text-anchor="middle"
     fill="#cbd5e1"
     font-family="Arial, Helvetica, sans-serif"
@@ -158,11 +167,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Level -->
-
 <text
-    x="700"
-    y="170"
+    x="825"
+    y="160"
     text-anchor="middle"
     fill="#94a3b8"
     font-family="Arial, Helvetica, sans-serif"
@@ -174,11 +181,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Activity Score -->
-
 <text
-    x="700"
-    y="205"
+    x="825"
+    y="195"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -189,34 +194,31 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Progress Bar Background -->
+<!-- Progress background -->
 
 <rect
-    x="570"
-    y="220"
-    width="260"
+    x="700"
+    y="215"
+    width="250"
     height="14"
     rx="7"
     fill="#334155"/>
 
 
-<!-- Progress Bar -->
+<!-- Progress -->
 
 <rect
-    x="570"
-    y="220"
-    width="182.0"
+    x="700"
+    y="215"
+    width="175.0"
     height="14"
     rx="7"
     fill="url(#trophy)"/>
 
 
-<!-- Progress Percentage -->
-
 <text
-    x="850"
-    y="233"
-    text-anchor="start"
+    x="965"
+    y="228"
     fill="#cbd5e1"
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
@@ -226,11 +228,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Next Level -->
-
 <text
-    x="700"
-    y="260"
+    x="825"
+    y="255"
     text-anchor="middle"
     fill="#94a3b8"
     font-family="Arial, Helvetica, sans-serif"
@@ -241,11 +241,11 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Repositories -->
+<!-- Stats -->
 
 <text
-    x="700"
-    y="285"
+    x="825"
+    y="295"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -256,11 +256,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Followers -->
-
 <text
-    x="700"
-    y="315"
+    x="825"
+    y="325"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -271,11 +269,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Stars -->
-
 <text
-    x="700"
-    y="345"
+    x="825"
+    y="355"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -286,11 +282,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Forks -->
-
 <text
-    x="700"
-    y="375"
+    x="825"
+    y="385"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -301,10 +295,10 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Updated -->
+<!-- Footer -->
 
 <text
-    x="500"
+    x="550"
     y="430"
     text-anchor="middle"
     fill="#64748b"
