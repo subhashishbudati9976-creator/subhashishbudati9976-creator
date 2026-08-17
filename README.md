@@ -36,6 +36,30 @@ automation, artificial intelligence, and deployment.
 
 ---
 
+## 📊 GITHUB TELEMETRY
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=subhashishbudati9976-creator&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=BB86FC&icon_color=00E5FF&text_color=FFFFFF" height="180"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subhashishbudati9976-creator&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=BB86FC&text_color=FFFFFF" height="180"/>
+
+</div>
+
+---
+
+## 🔥 CONTRIBUTION STREAK
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=subhashishbudati9976-creator&theme=tokyonight&hide_border=true&background=0D1117&ring=BB86FC&fire=00E5FF&currStreakLabel=BB86FC" />
+
+</div>
+
+---
+
+---
+
 ## 🚀 FEATURED PROJECTS
 
 ### 🤖 AI-Driven Chatbot as a Virtual Assistant
