@@ -41,7 +41,6 @@ public_repos = stats.get("public_repos", 0)
 followers = stats.get("followers", 0)
 following = stats.get("following", 0)
 
-
 total_stars = sum(
     repo.get("stargazers_count", 0)
     for repo in repositories
@@ -102,13 +101,10 @@ else:
         (progress / required) * 100
     )
 
-    progress_percent = max(
-        0,
-        min(100, progress_percent)
-    )
+    progress_percent = max(0, min(100, progress_percent))
 
 
-progress_width = 250 * progress_percent / 100
+progress_width = 280 * progress_percent / 100
 
 
 if level == "LEGENDARY":
@@ -138,16 +134,6 @@ else:
 
 
 updated = datetime.utcnow().strftime("%Y-%m-%d")
-
-
-print("🏆 Trophy generated successfully!")
-print(f"Repositories: {public_repos}")
-print(f"Followers: {followers}")
-print(f"Following: {following}")
-print(f"Stars: {total_stars}")
-print(f"Forks: {total_forks}")
-print(f"Activity Score: {activity_score}")
-print(f"Level: {level}")
 
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
@@ -180,9 +166,9 @@ viewBox="0 0 1100 460">
 
         <feDropShadow
             dx="0"
-            dy="10"
-            stdDeviation="12"
-            flood-opacity="0.4"/>
+            dy="12"
+            stdDeviation="14"
+            flood-opacity="0.45"/>
 
     </filter>
 
@@ -198,42 +184,42 @@ viewBox="0 0 1100 460">
     fill="url(#background)"/>
 
 
-<!-- LEFT SECTION : TROPHY -->
+<!-- ================= TROPHY AREA ================= -->
 
 <g filter="url(#shadow)">
 
     <!-- Left handle -->
 
     <path
-        d="M190 100
-           C120 85, 90 120, 110 165
-           C125 200, 155 205, 190 180"
+        d="M190 105
+           C105 85, 75 130, 105 180
+           C125 215, 160 215, 195 185"
         fill="none"
         stroke="url(#trophy)"
-        stroke-width="18"
+        stroke-width="22"
         stroke-linecap="round"/>
 
 
     <!-- Right handle -->
 
     <path
-        d="M410 100
-           C480 85, 510 120, 490 165
-           C475 200, 445 205, 410 180"
+        d="M410 105
+           C495 85, 525 130, 495 180
+           C475 215, 440 215, 405 185"
         fill="none"
         stroke="url(#trophy)"
-        stroke-width="18"
+        stroke-width="22"
         stroke-linecap="round"/>
 
 
     <!-- Cup -->
 
     <path
-        d="M180 80
-           L420 80
-           L395 180
-           C385 220, 350 245, 300 245
-           C250 245, 215 220, 205 180
+        d="M175 75
+           L425 75
+           L395 190
+           C385 235, 350 260, 300 260
+           C250 260, 215 235, 205 190
            Z"
         fill="url(#trophy)"/>
 
@@ -242,15 +228,15 @@ viewBox="0 0 1100 460">
 
     <path
         d="M300 105
-           L315 140
-           L352 142
-           L323 164
-           L333 200
-           L300 178
-           L267 200
-           L277 164
-           L248 142
-           L285 140
+           L318 145
+           L360 148
+           L327 173
+           L338 215
+           L300 190
+           L262 215
+           L273 173
+           L240 148
+           L282 145
            Z"
         fill="#fff7ed"/>
 
@@ -259,46 +245,62 @@ viewBox="0 0 1100 460">
 
     <rect
         x="280"
-        y="240"
+        y="255"
         width="40"
-        height="50"
-        rx="7"
+        height="55"
+        rx="8"
         fill="url(#trophy)"/>
 
 
     <!-- Base -->
 
     <rect
-        x="230"
-        y="285"
-        width="140"
-        height="25"
-        rx="8"
+        x="220"
+        y="305"
+        width="160"
+        height="28"
+        rx="9"
         fill="url(#trophy)"/>
 
 </g>
 
 
-<!-- Divider -->
+<!-- Trophy label -->
+
+<text
+    x="300"
+    y="370"
+    text-anchor="middle"
+    fill="#cbd5e1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="600">
+
+    YOUR GITHUB TROPHY
+
+</text>
+
+
+<!-- ================= DIVIDER ================= -->
 
 <line
-    x1="550"
-    y1="55"
-    x2="550"
-    y2="405"
+    x1="535"
+    y1="50"
+    x2="535"
+    y2="410"
     stroke="#334155"
     stroke-width="2"/>
 
 
-<!-- RIGHT SECTION -->
+<!-- ================= INFORMATION AREA ================= -->
 
 <text
-    x="825"
-    y="80"
+    x="810"
+    y="75"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="34"
+    font-size="36"
     font-weight="700">
 
     GITHUB TROPHY
@@ -307,12 +309,12 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
-    y="115"
+    x="810"
+    y="108"
     text-anchor="middle"
-    fill="#cbd5e1"
+    fill="#94a3b8"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="18">
+    font-size="17">
 
     @{USERNAME}
 
@@ -320,12 +322,12 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
-    y="160"
+    x="810"
+    y="155"
     text-anchor="middle"
     fill="{color_mid}"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="28"
+    font-size="30"
     font-weight="700">
 
     {level}
@@ -334,8 +336,8 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
-    y="195"
+    x="810"
+    y="190"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -346,31 +348,29 @@ viewBox="0 0 1100 460">
 </text>
 
 
-<!-- Progress background -->
+<!-- Progress bar -->
 
 <rect
-    x="700"
-    y="215"
-    width="250"
-    height="14"
-    rx="7"
+    x="660"
+    y="210"
+    width="280"
+    height="15"
+    rx="8"
     fill="#334155"/>
 
 
-<!-- Progress -->
-
 <rect
-    x="700"
-    y="215"
+    x="660"
+    y="210"
     width="{progress_width}"
-    height="14"
-    rx="7"
+    height="15"
+    rx="8"
     fill="url(#trophy)"/>
 
 
 <text
-    x="965"
-    y="228"
+    x="955"
+    y="223"
     fill="#cbd5e1"
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
@@ -381,14 +381,14 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
+    x="810"
     y="255"
     text-anchor="middle"
     fill="#94a3b8"
     font-family="Arial, Helvetica, sans-serif"
     font-size="15">
 
-    Next: {next_level}
+    Next Rank: {next_level}
 
 </text>
 
@@ -396,7 +396,7 @@ viewBox="0 0 1100 460">
 <!-- Stats -->
 
 <text
-    x="825"
+    x="810"
     y="295"
     text-anchor="middle"
     fill="#e2e8f0"
@@ -409,7 +409,7 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
+    x="810"
     y="325"
     text-anchor="middle"
     fill="#e2e8f0"
@@ -422,7 +422,7 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
+    x="810"
     y="355"
     text-anchor="middle"
     fill="#e2e8f0"
@@ -435,7 +435,7 @@ viewBox="0 0 1100 460">
 
 
 <text
-    x="825"
+    x="810"
     y="385"
     text-anchor="middle"
     fill="#e2e8f0"
@@ -451,7 +451,7 @@ viewBox="0 0 1100 460">
 
 <text
     x="550"
-    y="430"
+    y="435"
     text-anchor="middle"
     fill="#64748b"
     font-family="Arial, Helvetica, sans-serif"
@@ -468,4 +468,15 @@ viewBox="0 0 1100 460">
 
 OUTPUT.write_text(svg, encoding="utf-8")
 
+
+print("🏆 Trophy generated successfully!")
+print(f"Repositories: {public_repos}")
+print(f"Followers: {followers}")
+print(f"Following: {following}")
+print(f"Stars: {total_stars}")
+print(f"Forks: {total_forks}")
+print(f"Activity Score: {activity_score}")
+print(f"Level: {level}")
+print(f"Progress: {progress_percent}%")
+print(f"Next Level: {next_level}")
 print("SVG trophy saved successfully!")
