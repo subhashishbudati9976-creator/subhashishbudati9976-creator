@@ -10,9 +10,11 @@ permissions:
 
 jobs:
   generate-trophy:
+
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -22,14 +24,22 @@ jobs:
 
       - name: Commit trophy
         run: |
+
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add trophy.svg
 
           if git diff --cached --quiet; then
+
             echo "No changes to commit."
+
           else
-            git commit -m "Update GitHub trophy"
+
+            git commit -m "🏆 Update GitHub trophy"
+
             git push
+
           fi
