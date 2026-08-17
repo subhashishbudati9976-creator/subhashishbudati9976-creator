@@ -8,9 +8,7 @@ USERNAME = "subhashishbudati9976-creator"
 OUTPUT = Path("trophy.svg")
 
 
-def get_github_stats():
-    url = f"https://api.github.com/users/{USERNAME}"
-
+def github_request(url):
     request = Request(
         url,
         headers={
@@ -20,42 +18,30 @@ def get_github_stats():
     )
 
     with urlopen(request) as response:
-        data = response.read().decode("utf-8")
+        return json.loads(response.read().decode("utf-8"))
 
-    return json.loads(data)
+
+def get_github_stats():
+    return github_request(
+        f"https://api.github.com/users/{USERNAME}"
+    )
 
 
 def get_repositories():
-    url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100"
-
-    request = Request(
-        url,
-        headers={
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "GitHub-Trophy-Generator"
-        }
+    return github_request(
+        f"https://api.github.com/users/{USERNAME}/repos?per_page=100"
     )
 
-    with urlopen(request) as response:
-        data = response.read().decode("utf-8")
 
-    return json.loads(data)
-
-
-# Get GitHub profile data
 stats = get_github_stats()
-
-# Get repository data
 repositories = get_repositories()
 
 
-# Profile statistics
 public_repos = stats.get("public_repos", 0)
 followers = stats.get("followers", 0)
 following = stats.get("following", 0)
 
 
-# Repository statistics
 total_stars = sum(
     repo.get("stargazers_count", 0)
     for repo in repositories
@@ -67,7 +53,6 @@ total_forks = sum(
 )
 
 
-# Calculate custom activity score
 activity_score = (
     public_repos * 2
     + followers * 3
@@ -76,7 +61,6 @@ activity_score = (
 )
 
 
-# Determine trophy level
 if activity_score >= 300:
     level = "LEGENDARY"
     next_level = "MAX LEVEL"
@@ -108,7 +92,6 @@ else:
     next_threshold = 25
 
 
-# Calculate progress toward next level
 if level == "LEGENDARY":
     progress_percent = 100
 else:
@@ -125,10 +108,9 @@ else:
     )
 
 
-progress_width = 260 * progress_percent / 100
+progress_width = 250 * progress_percent / 100
 
 
-# Dynamic trophy colors
 if level == "LEGENDARY":
     color_start = "#e0f2fe"
     color_mid = "#67e8f9"
@@ -158,9 +140,7 @@ else:
 updated = datetime.utcnow().strftime("%Y-%m-%d")
 
 
-# Debug information
 print("🏆 Trophy generated successfully!")
-print(f"Username: {USERNAME}")
 print(f"Repositories: {public_repos}")
 print(f"Followers: {followers}")
 print(f"Following: {following}")
@@ -168,15 +148,12 @@ print(f"Stars: {total_stars}")
 print(f"Forks: {total_forks}")
 print(f"Activity Score: {activity_score}")
 print(f"Level: {level}")
-print(f"Progress: {progress_percent}%")
-print(f"Next Level: {next_level}")
 
 
-# Generate SVG
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
-width="1000"
+width="1100"
 height="460"
-viewBox="0 0 1000 460">
+viewBox="0 0 1100 460">
 
 <defs>
 
@@ -215,22 +192,22 @@ viewBox="0 0 1000 460">
 <!-- Background -->
 
 <rect
-    width="1000"
+    width="1100"
     height="460"
     rx="30"
     fill="url(#background)"/>
 
 
-<!-- Trophy -->
+<!-- LEFT SECTION : TROPHY -->
 
 <g filter="url(#shadow)">
 
     <!-- Left handle -->
 
     <path
-        d="M280 85
-           C200 70, 165 110, 190 165
-           C210 205, 250 205, 280 175"
+        d="M190 100
+           C120 85, 90 120, 110 165
+           C125 200, 155 205, 190 180"
         fill="none"
         stroke="url(#trophy)"
         stroke-width="18"
@@ -240,9 +217,9 @@ viewBox="0 0 1000 460">
     <!-- Right handle -->
 
     <path
-        d="M520 85
-           C600 70, 635 110, 610 165
-           C590 205, 550 205, 520 175"
+        d="M410 100
+           C480 85, 510 120, 490 165
+           C475 200, 445 205, 410 180"
         fill="none"
         stroke="url(#trophy)"
         stroke-width="18"
@@ -252,11 +229,11 @@ viewBox="0 0 1000 460">
     <!-- Cup -->
 
     <path
-        d="M270 70
-           L530 70
-           L500 180
-           C490 220, 455 245, 400 245
-           C345 245, 310 220, 300 180
+        d="M180 80
+           L420 80
+           L395 180
+           C385 220, 350 245, 300 245
+           C250 245, 215 220, 205 180
            Z"
         fill="url(#trophy)"/>
 
@@ -264,16 +241,16 @@ viewBox="0 0 1000 460">
     <!-- Star -->
 
     <path
-        d="M400 95
-           L415 130
-           L452 132
-           L423 154
-           L433 190
-           L400 168
-           L367 190
-           L377 154
-           L348 132
-           L385 130
+        d="M300 105
+           L315 140
+           L352 142
+           L323 164
+           L333 200
+           L300 178
+           L267 200
+           L277 164
+           L248 142
+           L285 140
            Z"
         fill="#fff7ed"/>
 
@@ -281,7 +258,7 @@ viewBox="0 0 1000 460">
     <!-- Stem -->
 
     <rect
-        x="380"
+        x="280"
         y="240"
         width="40"
         height="50"
@@ -292,7 +269,7 @@ viewBox="0 0 1000 460">
     <!-- Base -->
 
     <rect
-        x="330"
+        x="230"
         y="285"
         width="140"
         height="25"
@@ -302,11 +279,22 @@ viewBox="0 0 1000 460">
 </g>
 
 
-<!-- Title -->
+<!-- Divider -->
+
+<line
+    x1="550"
+    y1="55"
+    x2="550"
+    y2="405"
+    stroke="#334155"
+    stroke-width="2"/>
+
+
+<!-- RIGHT SECTION -->
 
 <text
-    x="700"
-    y="90"
+    x="825"
+    y="80"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -318,11 +306,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Username -->
-
 <text
-    x="700"
-    y="125"
+    x="825"
+    y="115"
     text-anchor="middle"
     fill="#cbd5e1"
     font-family="Arial, Helvetica, sans-serif"
@@ -333,11 +319,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Level -->
-
 <text
-    x="700"
-    y="170"
+    x="825"
+    y="160"
     text-anchor="middle"
     fill="{color_mid}"
     font-family="Arial, Helvetica, sans-serif"
@@ -349,11 +333,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Activity Score -->
-
 <text
-    x="700"
-    y="205"
+    x="825"
+    y="195"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -364,34 +346,31 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Progress Bar Background -->
+<!-- Progress background -->
 
 <rect
-    x="570"
-    y="220"
-    width="260"
+    x="700"
+    y="215"
+    width="250"
     height="14"
     rx="7"
     fill="#334155"/>
 
 
-<!-- Progress Bar -->
+<!-- Progress -->
 
 <rect
-    x="570"
-    y="220"
+    x="700"
+    y="215"
     width="{progress_width}"
     height="14"
     rx="7"
     fill="url(#trophy)"/>
 
 
-<!-- Progress Percentage -->
-
 <text
-    x="850"
-    y="233"
-    text-anchor="start"
+    x="965"
+    y="228"
     fill="#cbd5e1"
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
@@ -401,11 +380,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Next Level -->
-
 <text
-    x="700"
-    y="260"
+    x="825"
+    y="255"
     text-anchor="middle"
     fill="#94a3b8"
     font-family="Arial, Helvetica, sans-serif"
@@ -416,11 +393,11 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Repositories -->
+<!-- Stats -->
 
 <text
-    x="700"
-    y="285"
+    x="825"
+    y="295"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -431,11 +408,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Followers -->
-
 <text
-    x="700"
-    y="315"
+    x="825"
+    y="325"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -446,11 +421,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Stars -->
-
 <text
-    x="700"
-    y="345"
+    x="825"
+    y="355"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -461,11 +434,9 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Forks -->
-
 <text
-    x="700"
-    y="375"
+    x="825"
+    y="385"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -476,10 +447,10 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Updated -->
+<!-- Footer -->
 
 <text
-    x="500"
+    x="550"
     y="430"
     text-anchor="middle"
     fill="#64748b"
@@ -495,7 +466,6 @@ viewBox="0 0 1000 460">
 '''
 
 
-# Write SVG file
 OUTPUT.write_text(svg, encoding="utf-8")
 
 print("SVG trophy saved successfully!")
