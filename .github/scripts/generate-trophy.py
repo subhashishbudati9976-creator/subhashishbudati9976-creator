@@ -79,15 +79,50 @@ activity_score = (
 # Determine trophy level
 if activity_score >= 300:
     level = "LEGENDARY"
+    next_level = "MAX LEVEL"
+    current_threshold = 300
+    next_threshold = 300
+
 elif activity_score >= 150:
     level = "MASTER"
+    next_level = "LEGENDARY"
+    current_threshold = 150
+    next_threshold = 300
+
 elif activity_score >= 75:
     level = "RISING STAR"
+    next_level = "MASTER"
+    current_threshold = 75
+    next_threshold = 150
+
 elif activity_score >= 25:
     level = "BUILDER"
+    next_level = "RISING STAR"
+    current_threshold = 25
+    next_threshold = 75
+
 else:
     level = "ROOKIE"
+    next_level = "BUILDER"
+    current_threshold = 0
+    next_threshold = 25
 
+if level == "LEGENDARY":
+    progress_percent = 100
+else:
+    progress = activity_score - current_threshold
+    required = next_threshold - current_threshold
+
+    progress_percent = int(
+        (progress / required) * 100
+    )
+
+    progress_percent = max(
+        0,
+        min(100, progress_percent)
+    )
+
+progress_width = 260 * progress_percent / 100
 
 updated = datetime.utcnow().strftime("%Y-%m-%d")
 
@@ -285,7 +320,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="210"
+    y="205"
     text-anchor="middle"
     fill="#f8fafc"
     font-family="Arial, Helvetica, sans-serif"
@@ -296,11 +331,63 @@ viewBox="0 0 1000 420">
 </text>
 
 
+<!-- Progress bar background -->
+
+<rect
+    x="570"
+    y="220"
+    width="260"
+    height="14"
+    rx="7"
+    fill="#334155"/>
+
+
+<!-- Progress bar -->
+
+<rect
+    x="570"
+    y="220"
+    width="{progress_width}"
+    height="14"
+    rx="7"
+    fill="url(#gold)"/>
+
+
+<!-- Progress percentage -->
+
+<text
+    x="850"
+    y="233"
+    text-anchor="start"
+    fill="#cbd5e1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14">
+
+    {progress_percent}%
+
+</text>
+
+
+<!-- Next rank -->
+
+<text
+    x="700"
+    y="260"
+    text-anchor="middle"
+    fill="#94a3b8"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15">
+
+    Next: {next_level}
+
+</text>
+
+
 <!-- Stats -->
 
 <text
     x="700"
-    y="250"
+    y="285"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -313,7 +400,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="280"
+    y="315"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -326,7 +413,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="310"
+    y="345"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -339,7 +426,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="700"
-    y="340"
+    y="375"
     text-anchor="middle"
     fill="#e2e8f0"
     font-family="Arial, Helvetica, sans-serif"
@@ -354,7 +441,7 @@ viewBox="0 0 1000 420">
 
 <text
     x="500"
-    y="375"
+    y="430"
     text-anchor="middle"
     fill="#64748b"
     font-family="Arial, Helvetica, sans-serif"
