@@ -166,7 +166,7 @@ automation, artificial intelligence, and deployment.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=subhashishbudati9976-creator&theme=onedark&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=10" />
+<img src="./profile/trophy.svg" width="100%" />
 
 </div>
 
