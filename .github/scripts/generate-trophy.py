@@ -15,20 +15,25 @@ def get_github_stats():
         url,
         headers={
             "Accept": "application/vnd.github+json",
-            "User-Agent": "github-trophy-generator"
+            "User-Agent": "GitHub-Trophy-Generator"
         }
     )
 
     with urlopen(request) as response:
-        return json.loads(response.read().decode("utf-8"))
+        data = response.read().decode("utf-8")
+
+    return json.loads(data)
 
 
+# Get GitHub profile data
 stats = get_github_stats()
 
-public_repos = stats.get("public_repos", 0)
-followers = stats.get("followers", 0)
-following = stats.get("following", 0)
+public_repos = stats["public_repos"]
+followers = stats["followers"]
+following = stats["following"]
 
+
+# Determine trophy level
 if public_repos >= 30:
     level = "LEGENDARY"
 elif public_repos >= 20:
@@ -42,6 +47,7 @@ else:
 
 
 updated = datetime.utcnow().strftime("%Y-%m-%d")
+
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
 width="1000"
@@ -95,33 +101,23 @@ viewBox="0 0 1000 420">
 
 <g filter="url(#shadow)">
 
-    <!-- Left handle -->
-
     <path
         d="M280 85
            C200 70, 165 110, 190 165
            C210 205, 250 205, 280 175"
-
         fill="none"
         stroke="url(#gold)"
         stroke-width="18"
         stroke-linecap="round"/>
-
-
-    <!-- Right handle -->
 
     <path
         d="M520 85
            C600 70, 635 110, 610 165
            C590 205, 550 205, 520 175"
-
         fill="none"
         stroke="url(#gold)"
         stroke-width="18"
         stroke-linecap="round"/>
-
-
-    <!-- Cup -->
 
     <path
         d="M270 70
@@ -130,11 +126,7 @@ viewBox="0 0 1000 420">
            C490 220, 455 245, 400 245
            C345 245, 310 220, 300 180
            Z"
-
         fill="url(#gold)"/>
-
-
-    <!-- Star -->
 
     <path
         d="M400 95
@@ -148,11 +140,7 @@ viewBox="0 0 1000 420">
            L348 132
            L385 130
            Z"
-
         fill="#fff7ed"/>
-
-
-    <!-- Stem -->
 
     <rect
         x="380"
@@ -161,9 +149,6 @@ viewBox="0 0 1000 420">
         height="50"
         rx="7"
         fill="url(#gold)"/>
-
-
-    <!-- Base -->
 
     <rect
         x="330"
@@ -264,8 +249,6 @@ viewBox="0 0 1000 420">
 </text>
 
 
-<!-- Updated -->
-
 <text
     x="500"
     y="375"
@@ -281,10 +264,13 @@ viewBox="0 0 1000 420">
 </svg>
 '''
 
+
 OUTPUT.write_text(svg, encoding="utf-8")
+
 
 print("🏆 Trophy generated successfully!")
 print(f"Username: {USERNAME}")
 print(f"Repositories: {public_repos}")
 print(f"Followers: {followers}")
+print(f"Following: {following}")
 print(f"Level: {level}")
