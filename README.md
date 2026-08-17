@@ -205,17 +205,11 @@ AI, NLP and DevOps.
 
 ---
 
-## 🏆 GITHUB ACHIEVEMENTS
+## 🏆 GitHub Trophy
 
-<div align="center">
-
-<img src="./profile/trophy.svg" width="100%" />
-
-<br>
-
-<i>Small milestones. Continuous progress.</i>
-
-</div>
+<p align="center">
+  <img src="./trophy.svg" alt="Custom GitHub Trophy">
+</p>
 
 ---
 
