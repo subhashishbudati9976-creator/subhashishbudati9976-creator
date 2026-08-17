@@ -2,7 +2,7 @@
 
 # 👋 Wassup guys, I'm Subhashish
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&lines=CSE+Student+%7C+Developer;DevOps+%26+Cloud+Enthusiast;AI+%26+NLP+Explorer;Building+%7C+Learning+%7C+Deploying;Turning+Ideas+Into+Projects+%F0%9F%9A%80" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&lines=CSE+Student+%7C+Developer;DevOps+%26+Automation+Enthusiast;AI+%26+NLP+Explorer;Building+%7C+Learning+%7C+Deploying;Turning+Ideas+Into+Projects+%F0%9F%9A%80" />
 
 <br>
 
@@ -204,20 +204,20 @@ A collaborative academic project focused on orbital data processing, simulation 
 
 ---
 
----
-
 ## 🌐 CONNECT WITH ME
 
 <div align="center">
 
-<a href="www.linkedin.com/in/subhashish-budati-685664427" target="_blank">
-<img src="https://skillicons.dev/icons?i=linkedin" width="50"><br><p>Subhashish Budati</p>
+<a href="https://www.linkedin.com/in/subhashish-budati-685664427" target="_blank">
+<img src="https://skillicons.dev/icons?i=linkedin" width="50"><br>
+<p>Subhashish Budati</p>
 </a>
 
 &nbsp;&nbsp;
 
 <a href="https://github.com/subhashishbudati9976-creator" target="_blank">
-<img src="https://skillicons.dev/icons?i=github" width="50"><br><p>subhashishbudati9976-creator</p>
+<img src="https://skillicons.dev/icons?i=github" width="50"><br>
+<p>subhashishbudati9976-creator</p>
 </a>
 
 </div>
@@ -239,5 +239,19 @@ A collaborative academic project focused on orbital data processing, simulation 
 | ☁️ Cloud & Deployment | Understanding modern deployment workflows |
 | 💻 Software Development | Strengthening DSA & problem-solving |
 | 🗄️ Databases | Working with SQL and database-backed applications |
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚀 Thanks for visiting my profile!
+
+<i>Building • Learning • Deploying • Improving</i>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=Profile+Views&color=7AA2F7&style=flat-square">
 
 </div>
