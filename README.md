@@ -58,96 +58,19 @@ automation, artificial intelligence, and deployment.
 
 ### 💻 LANGUAGES
 
-<table>
-<tr>
-
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=c&theme=dark" width="50"><br>
-<b>C</b>
-</td>
-
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=java&theme=dark" width="50"><br>
-<b>Java</b>
-</td>
-
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=python&theme=dark" width="50"><br>
-<b>Python</b>
-</td>
-
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="50"><br>
-<b>SQL</b>
-</td>
-
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=html&theme=dark" width="50"><br>
-<b>HTML</b>
-</td>
-
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=css&theme=dark" width="50"><br>
-<b>CSS</b>
-</td>
-
-<td align="center" width="125">
-<img src="https://skillicons.dev/icons?i=javascript&theme=dark" width="50"><br>
-<b>JavaScript</b>
-</td>
-
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=c,java,python,mysql,html,css,javascript&theme=dark" />
 
 <br>
 
 ### ⚙️ DEVELOPMENT & TOOLS
 
-<table>
-<tr>
-
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=git&theme=dark" width="50"><br>
-<b>Git</b>
-</td>
-
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=github&theme=dark" width="50"><br>
-<b>GitHub</b>
-</td>
-
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="50"><br>
-<b>VS Code</b>
-</td>
-
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" />
 
 <br>
 
 ### ☁️ DEVOPS
 
-<table>
-<tr>
-
-<td align="center" width="130">
-<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="50"><br>
-<b>Docker</b>
-</td>
-
-<td align="center" width="130">
-<img src="https://skillicons.dev/icons?i=jenkins&theme=dark" width="50"><br>
-<b>Jenkins</b>
-</td>
-
-<td align="center" width="150">
-<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="50"><br>
-<b>GitHub Actions</b>
-</td>
-
-</tr>
-</table>
+<img src="https://skillicons.dev/icons?i=docker,jenkins,githubactions&theme=dark" />
 
 <br>
 
@@ -155,12 +78,10 @@ automation, artificial intelligence, and deployment.
 
 <table>
 <tr>
-
-<td align="center" width="120">
-<span style="font-size:35px;">🧠</span><br>
+<td align="center" width="100">
+🧠<br>
 <b>NLP</b>
 </td>
-
 </tr>
 </table>
 
