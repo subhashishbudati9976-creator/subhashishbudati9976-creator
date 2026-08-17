@@ -107,6 +107,8 @@ else:
     current_threshold = 0
     next_threshold = 25
 
+
+# Calculate progress toward next level
 if level == "LEGENDARY":
     progress_percent = 100
 else:
@@ -122,7 +124,36 @@ else:
         min(100, progress_percent)
     )
 
+
 progress_width = 260 * progress_percent / 100
+
+
+# Dynamic trophy colors
+if level == "LEGENDARY":
+    color_start = "#e0f2fe"
+    color_mid = "#67e8f9"
+    color_end = "#0891b2"
+
+elif level == "MASTER":
+    color_start = "#f1f5f9"
+    color_mid = "#cbd5e1"
+    color_end = "#64748b"
+
+elif level == "RISING STAR":
+    color_start = "#fef08a"
+    color_mid = "#facc15"
+    color_end = "#a16207"
+
+elif level == "BUILDER":
+    color_start = "#e2e8f0"
+    color_mid = "#94a3b8"
+    color_end = "#475569"
+
+else:
+    color_start = "#fed7aa"
+    color_mid = "#fb923c"
+    color_end = "#9a3412"
+
 
 updated = datetime.utcnow().strftime("%Y-%m-%d")
 
@@ -137,6 +168,8 @@ print(f"Stars: {total_stars}")
 print(f"Forks: {total_forks}")
 print(f"Activity Score: {activity_score}")
 print(f"Level: {level}")
+print(f"Progress: {progress_percent}%")
+print(f"Next Level: {next_level}")
 
 
 # Generate SVG
@@ -156,13 +189,13 @@ viewBox="0 0 1000 460">
 
     </linearGradient>
 
-    <linearGradient id="gold"
+    <linearGradient id="trophy"
         x1="0%" y1="0%"
         x2="100%" y2="100%">
 
-        <stop offset="0%" stop-color="#fef08a"/>
-        <stop offset="50%" stop-color="#facc15"/>
-        <stop offset="100%" stop-color="#a16207"/>
+        <stop offset="0%" stop-color="{color_start}"/>
+        <stop offset="50%" stop-color="{color_mid}"/>
+        <stop offset="100%" stop-color="{color_end}"/>
 
     </linearGradient>
 
@@ -183,7 +216,7 @@ viewBox="0 0 1000 460">
 
 <rect
     width="1000"
-    height="420"
+    height="460"
     rx="30"
     fill="url(#background)"/>
 
@@ -199,7 +232,7 @@ viewBox="0 0 1000 460">
            C200 70, 165 110, 190 165
            C210 205, 250 205, 280 175"
         fill="none"
-        stroke="url(#gold)"
+        stroke="url(#trophy)"
         stroke-width="18"
         stroke-linecap="round"/>
 
@@ -211,7 +244,7 @@ viewBox="0 0 1000 460">
            C600 70, 635 110, 610 165
            C590 205, 550 205, 520 175"
         fill="none"
-        stroke="url(#gold)"
+        stroke="url(#trophy)"
         stroke-width="18"
         stroke-linecap="round"/>
 
@@ -225,7 +258,7 @@ viewBox="0 0 1000 460">
            C490 220, 455 245, 400 245
            C345 245, 310 220, 300 180
            Z"
-        fill="url(#gold)"/>
+        fill="url(#trophy)"/>
 
 
     <!-- Star -->
@@ -253,7 +286,7 @@ viewBox="0 0 1000 460">
         width="40"
         height="50"
         rx="7"
-        fill="url(#gold)"/>
+        fill="url(#trophy)"/>
 
 
     <!-- Base -->
@@ -264,7 +297,7 @@ viewBox="0 0 1000 460">
         width="140"
         height="25"
         rx="8"
-        fill="url(#gold)"/>
+        fill="url(#trophy)"/>
 
 </g>
 
@@ -306,7 +339,7 @@ viewBox="0 0 1000 460">
     x="700"
     y="170"
     text-anchor="middle"
-    fill="#facc15"
+    fill="{color_mid}"
     font-family="Arial, Helvetica, sans-serif"
     font-size="28"
     font-weight="700">
@@ -331,7 +364,7 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Progress bar background -->
+<!-- Progress Bar Background -->
 
 <rect
     x="570"
@@ -342,7 +375,7 @@ viewBox="0 0 1000 460">
     fill="#334155"/>
 
 
-<!-- Progress bar -->
+<!-- Progress Bar -->
 
 <rect
     x="570"
@@ -350,10 +383,10 @@ viewBox="0 0 1000 460">
     width="{progress_width}"
     height="14"
     rx="7"
-    fill="url(#gold)"/>
+    fill="url(#trophy)"/>
 
 
-<!-- Progress percentage -->
+<!-- Progress Percentage -->
 
 <text
     x="850"
@@ -368,7 +401,7 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Next rank -->
+<!-- Next Level -->
 
 <text
     x="700"
@@ -383,7 +416,7 @@ viewBox="0 0 1000 460">
 </text>
 
 
-<!-- Stats -->
+<!-- Repositories -->
 
 <text
     x="700"
@@ -398,6 +431,8 @@ viewBox="0 0 1000 460">
 </text>
 
 
+<!-- Followers -->
+
 <text
     x="700"
     y="315"
@@ -411,6 +446,8 @@ viewBox="0 0 1000 460">
 </text>
 
 
+<!-- Stars -->
+
 <text
     x="700"
     y="345"
@@ -419,10 +456,12 @@ viewBox="0 0 1000 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="17">
 
-    ⭐ Stars: {total_stars}
+    Stars: {total_stars}
 
 </text>
 
+
+<!-- Forks -->
 
 <text
     x="700"
@@ -432,7 +471,7 @@ viewBox="0 0 1000 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="17">
 
-    🍴 Forks: {total_forks}
+    Forks: {total_forks}
 
 </text>
 
