@@ -22,42 +22,133 @@ automation, artificial intelligence, and deployment.
 
 ---
 
-## 🛠️ TECHNOLOGIES & TOOLS
+## 🛠️ TECHNOLOGY MATRIX
 
-### Languages
-`C` `Java` `Python` `SQL` `HTML` `CSS`
-
-### Development
-`Node.js` `Express.js` `Git` `GitHub`
-
-### DevOps
-`Docker` `Docker Compose` `Jenkins` `GitHub Actions` `Nginx`
-
-### AI & Data
-`Gemini API` `NLP`
-
----
-
-## 📊 GITHUB TELEMETRY
+### 💻 Languages
 
 <div align="center">
 
-<img src="./profile/stats.svg" height="180"/>
+<table align="center">
+<tr>
 
-<img src="./profile/top-langs.svg" height="180"/>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=c&theme=dark" width="55"><br>
+<b>C</b>
+</td>
+
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=java&theme=dark" width="55"><br>
+<b>Java</b>
+</td>
+
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=python&theme=dark" width="55"><br>
+<b>Python</b>
+</td>
+
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="55"><br>
+<b>SQL</b>
+</td>
+
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=html&theme=dark" width="55"><br>
+<b>HTML</b>
+</td>
+
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=css&theme=dark" width="55"><br>
+<b>CSS</b>
+</td>
+
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=js&theme=dark" width="55"><br>
+<b>JavaScript</b>
+</td>
+
+</tr>
+</table>
 
 </div>
 
----
 
-## 🔥 CONTRIBUTION STREAK
+### ⚙️ Development & Tools
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=subhashishbudati9976-creator&theme=tokyonight&hide_border=true&background=0D1117&ring=BB86FC&fire=00E5FF&currStreakLabel=BB86FC" />
+<table align="center">
+<tr>
+
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=git&theme=dark" width="55"><br>
+<b>Git</b>
+</td>
+
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=github&theme=dark" width="55"><br>
+<b>GitHub</b>
+</td>
+
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="55"><br>
+<b>VS Code</b>
+</td>
+
+</tr>
+</table>
 
 </div>
 
+
+### ☁️ DevOps
+
+<div align="center">
+
+<table align="center">
+<tr>
+
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="55"><br>
+<b>Docker</b>
+</td>
+
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=jenkins&theme=dark" width="55"><br>
+<b>Jenkins</b>
+</td>
+
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="55"><br>
+<b>GitHub Actions</b>
+</td>
+
+</tr>
+</table>
+
+</div>
+
+
+### 🤖 AI & Data
+
+<div align="center">
+
+<table align="center">
+<tr>
+
+<td align="center" width="120">
+🧠<br>
+<b>NLP</b>
+</td>
+
+</tr>
+</table>
+
+</div>
+
+
+<p align="center">
+<i>Building • Learning • Deploying • Improving</i>
+</p>
 ---
 
 ---
