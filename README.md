@@ -225,3 +225,19 @@ A collaborative academic project focused on orbital data processing, simulation 
 <p align="center">
 <i>Let's connect, collaborate, and build something meaningful.</i>
 </p>
+
+---
+
+## 🧭 CURRENTLY EXPLORING
+
+<div align="center">
+
+| 🔍 Area | 🚀 Focus |
+|:---:|:---:|
+| 🤖 AI & NLP | Building practical AI-powered applications |
+| ⚙️ DevOps | CI/CD, Docker, Jenkins & GitHub Actions |
+| ☁️ Cloud & Deployment | Understanding modern deployment workflows |
+| 💻 Software Development | Strengthening DSA & problem-solving |
+| 🗄️ Databases | Working with SQL and database-backed applications |
+
+</div>
