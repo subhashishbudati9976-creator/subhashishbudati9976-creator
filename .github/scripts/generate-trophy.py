@@ -1,107 +1,290 @@
+import json
+import os
 from pathlib import Path
 from datetime import datetime
+from urllib.request import Request, urlopen
 
+USERNAME = "subhashishbudati9976-creator"
 OUTPUT = Path("trophy.svg")
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e293b"/>
+
+def get_github_stats():
+    url = f"https://api.github.com/users/{USERNAME}"
+
+    request = Request(
+        url,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "github-trophy-generator"
+        }
+    )
+
+    with urlopen(request) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+stats = get_github_stats()
+
+public_repos = stats.get("public_repos", 0)
+followers = stats.get("followers", 0)
+following = stats.get("following", 0)
+
+if public_repos >= 30:
+    level = "LEGENDARY"
+elif public_repos >= 20:
+    level = "MASTER"
+elif public_repos >= 10:
+    level = "RISING STAR"
+elif public_repos >= 5:
+    level = "BUILDER"
+else:
+    level = "ROOKIE"
+
+
+updated = datetime.utcnow().strftime("%Y-%m-%d")
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
+width="1000"
+height="420"
+viewBox="0 0 1000 420">
+
+<defs>
+
+    <linearGradient id="background"
+        x1="0%" y1="0%"
+        x2="100%" y2="100%">
+
+        <stop offset="0%" stop-color="#020617"/>
+        <stop offset="100%" stop-color="#172554"/>
+
     </linearGradient>
 
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fde68a"/>
-      <stop offset="45%" stop-color="#facc15"/>
-      <stop offset="100%" stop-color="#ca8a04"/>
+    <linearGradient id="gold"
+        x1="0%" y1="0%"
+        x2="100%" y2="100%">
+
+        <stop offset="0%" stop-color="#fef08a"/>
+        <stop offset="50%" stop-color="#facc15"/>
+        <stop offset="100%" stop-color="#a16207"/>
+
     </linearGradient>
 
     <filter id="shadow">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity="0.35"/>
+
+        <feDropShadow
+            dx="0"
+            dy="10"
+            stdDeviation="12"
+            flood-opacity="0.4"/>
+
     </filter>
-  </defs>
 
-  <!-- Background -->
-  <rect width="900" height="260" rx="24" fill="url(#bg)"/>
+</defs>
 
-  <!-- Trophy -->
-  <g filter="url(#shadow)">
-    <!-- Handles -->
-    <path d="M245 65
-             C180 55, 155 85, 175 125
-             C190 155, 220 155, 245 135"
-          fill="none"
-          stroke="url(#gold)"
-          stroke-width="14"
-          stroke-linecap="round"/>
 
-    <path d="M455 65
-             C520 55, 545 85, 525 125
-             C510 155, 480 155, 455 135"
-          fill="none"
-          stroke="url(#gold)"
-          stroke-width="14"
-          stroke-linecap="round"/>
+<!-- Background -->
+
+<rect
+    width="1000"
+    height="420"
+    rx="30"
+    fill="url(#background)"/>
+
+
+<!-- Trophy -->
+
+<g filter="url(#shadow)">
+
+    <!-- Left handle -->
+
+    <path
+        d="M280 85
+           C200 70, 165 110, 190 165
+           C210 205, 250 205, 280 175"
+
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="18"
+        stroke-linecap="round"/>
+
+
+    <!-- Right handle -->
+
+    <path
+        d="M520 85
+           C600 70, 635 110, 610 165
+           C590 205, 550 205, 520 175"
+
+        fill="none"
+        stroke="url(#gold)"
+        stroke-width="18"
+        stroke-linecap="round"/>
+
 
     <!-- Cup -->
-    <path d="M235 50
-             L465 50
-             L440 135
-             C430 170, 400 190, 350 190
-             C300 190, 270 170, 260 135
-             Z"
-          fill="url(#gold)"/>
 
-    <!-- Stem -->
-    <rect x="335" y="180" width="30" height="35" rx="5"
-          fill="url(#gold)"/>
+    <path
+        d="M270 70
+           L530 70
+           L500 180
+           C490 220, 455 245, 400 245
+           C345 245, 310 220, 300 180
+           Z"
 
-    <!-- Base -->
-    <rect x="290" y="210" width="120" height="20" rx="8"
-          fill="url(#gold)"/>
+        fill="url(#gold)"/>
+
 
     <!-- Star -->
-    <path d="M350 72
-             L360 98
-             L388 99
-             L366 116
-             L374 143
-             L350 127
-             L326 143
-             L334 116
-             L312 99
-             L340 98
-             Z"
-          fill="#fff7ed"/>
-  </g>
 
-  <!-- Text -->
-  <text x="575" y="105"
-        text-anchor="middle"
-        fill="#f8fafc"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="34"
-        font-weight="700">
-    GitHub Trophy
-  </text>
+    <path
+        d="M400 95
+           L415 130
+           L452 132
+           L423 154
+           L433 190
+           L400 168
+           L367 190
+           L377 154
+           L348 132
+           L385 130
+           Z"
 
-  <text x="575" y="145"
-        text-anchor="middle"
-        fill="#cbd5e1"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="19">
-    Custom • Automated • Open Source
-  </text>
+        fill="#fff7ed"/>
 
-  <text x="575" y="180"
-        text-anchor="middle"
-        fill="#94a3b8"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="14">
-    Updated {datetime.utcnow().strftime("%Y-%m-%d")}
-  </text>
+
+    <!-- Stem -->
+
+    <rect
+        x="380"
+        y="240"
+        width="40"
+        height="50"
+        rx="7"
+        fill="url(#gold)"/>
+
+
+    <!-- Base -->
+
+    <rect
+        x="330"
+        y="285"
+        width="140"
+        height="25"
+        rx="8"
+        fill="url(#gold)"/>
+
+</g>
+
+
+<!-- Title -->
+
+<text
+    x="700"
+    y="105"
+    text-anchor="middle"
+    fill="#f8fafc"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="700">
+
+    GITHUB TROPHY
+
+</text>
+
+
+<!-- Username -->
+
+<text
+    x="700"
+    y="145"
+    text-anchor="middle"
+    fill="#cbd5e1"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20">
+
+    @{USERNAME}
+
+</text>
+
+
+<!-- Level -->
+
+<text
+    x="700"
+    y="190"
+    text-anchor="middle"
+    fill="#facc15"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="28"
+    font-weight="700">
+
+    {level}
+
+</text>
+
+
+<!-- Stats -->
+
+<text
+    x="700"
+    y="240"
+    text-anchor="middle"
+    fill="#e2e8f0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18">
+
+    Repositories: {public_repos}
+
+</text>
+
+
+<text
+    x="700"
+    y="275"
+    text-anchor="middle"
+    fill="#e2e8f0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18">
+
+    Followers: {followers}
+
+</text>
+
+
+<text
+    x="700"
+    y="310"
+    text-anchor="middle"
+    fill="#e2e8f0"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18">
+
+    Following: {following}
+
+</text>
+
+
+<!-- Updated -->
+
+<text
+    x="500"
+    y="375"
+    text-anchor="middle"
+    fill="#64748b"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14">
+
+    Automatically updated • {updated}
+
+</text>
+
 </svg>
 '''
 
 OUTPUT.write_text(svg, encoding="utf-8")
-print(f"Generated {OUTPUT}")
+
+print("🏆 Trophy generated successfully!")
+print(f"Username: {USERNAME}")
+print(f"Repositories: {public_repos}")
+print(f"Followers: {followers}")
+print(f"Level: {level}")
