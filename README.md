@@ -54,119 +54,110 @@ automation, artificial intelligence, and deployment.
 
 ## 🛠️ TECHNOLOGY MATRIX
 
-### 💻 Languages
-
 <div align="center">
 
-<table align="center">
+### 💻 LANGUAGES
+
+<table>
 <tr>
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=c&theme=dark" width="55"><br>
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=c&theme=dark" width="50"><br>
 <b>C</b>
 </td>
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=java&theme=dark" width="55"><br>
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=java&theme=dark" width="50"><br>
 <b>Java</b>
 </td>
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=python&theme=dark" width="55"><br>
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=python&theme=dark" width="50"><br>
 <b>Python</b>
 </td>
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="55"><br>
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="50"><br>
 <b>SQL</b>
 </td>
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=html&theme=dark" width="55"><br>
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=html&theme=dark" width="50"><br>
 <b>HTML</b>
 </td>
 
-<td align="center" width="100">
-<img src="https://skillicons.dev/icons?i=css&theme=dark" width="55"><br>
+<td align="center" width="110">
+<img src="https://skillicons.dev/icons?i=css&theme=dark" width="50"><br>
 <b>CSS</b>
 </td>
 
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=js&theme=dark" width="55"><br>
+<td align="center" width="125">
+<img src="https://skillicons.dev/icons?i=javascript&theme=dark" width="50"><br>
 <b>JavaScript</b>
 </td>
 
 </tr>
 </table>
 
-</div>
+<br>
 
+### ⚙️ DEVELOPMENT & TOOLS
 
-### ⚙️ Development & Tools
-
-<div align="center">
-
-<table align="center">
+<table>
 <tr>
 
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=git&theme=dark" width="55"><br>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=git&theme=dark" width="50"><br>
 <b>Git</b>
 </td>
 
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=github&theme=dark" width="55"><br>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=github&theme=dark" width="50"><br>
 <b>GitHub</b>
 </td>
 
-<td align="center" width="110">
-<img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="55"><br>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="50"><br>
 <b>VS Code</b>
 </td>
 
 </tr>
 </table>
 
-</div>
+<br>
 
+### ☁️ DEVOPS
 
-### ☁️ DevOps
-
-<div align="center">
-
-<table align="center">
+<table>
 <tr>
 
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="55"><br>
+<td align="center" width="130">
+<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="50"><br>
 <b>Docker</b>
 </td>
 
-<td align="center" width="120">
-<img src="https://skillicons.dev/icons?i=jenkins&theme=dark" width="55"><br>
+<td align="center" width="130">
+<img src="https://skillicons.dev/icons?i=jenkins&theme=dark" width="50"><br>
 <b>Jenkins</b>
 </td>
 
-<td align="center" width="140">
-<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="55"><br>
+<td align="center" width="150">
+<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="50"><br>
 <b>GitHub Actions</b>
 </td>
 
 </tr>
 </table>
 
-</div>
+<br>
 
+### 🤖 AI & DATA
 
-### 🤖 AI & Data
-
-<div align="center">
-
-<table align="center">
+<table>
 <tr>
 
 <td align="center" width="120">
-🧠<br>
+<span style="font-size:35px;">🧠</span><br>
 <b>NLP</b>
 </td>
 
@@ -175,9 +166,8 @@ automation, artificial intelligence, and deployment.
 
 </div>
 
-
 <p align="center">
-<i>Building • Learning • Deploying • Improving</i>
+<i>Learning the tools. Understanding the systems. Building the projects.</i>
 </p>
 
 ---
