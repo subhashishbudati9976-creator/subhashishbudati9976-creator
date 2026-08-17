@@ -105,21 +105,26 @@ while strengthening my foundations in **DSA, databases, and programming**.
 
 <div align="center">
 
-| 🔍 Area | 🚀 Focus |
-|:---:|:---|
-| 🤖 **AI & NLP** | Exploring practical AI-powered applications and NLP |
-| ⚙️ **DevOps** | CI/CD, Docker, Jenkins & GitHub Actions |
-| ☁️ **Cloud & Deployment** | Learning modern deployment and automation workflows |
-| 💻 **Software Development** | Strengthening DSA, programming & problem-solving |
-| 🗄️ **Databases** | Building database-backed applications with SQL |
+### 🤖 AI & NLP
+Exploring practical AI-powered applications and NLP.
 
-</div>
+### ⚙️ DEVOPS
+Learning CI/CD, Docker, Jenkins and GitHub Actions.
+
+### ☁️ CLOUD & DEPLOYMENT
+Understanding modern deployment and automation workflows.
+
+### 💻 SOFTWARE DEVELOPMENT
+Strengthening DSA, programming and problem-solving.
+
+### 🗄️ DATABASES
+Building and working with SQL-based applications.
 
 <br>
 
-<p align="center">
-<i>Learning by building. Improving by experimenting.</i>
-</p>
+`LEARN` → `BUILD` → `EXPERIMENT` → `IMPROVE`
+
+</div>
 
 ---
 
