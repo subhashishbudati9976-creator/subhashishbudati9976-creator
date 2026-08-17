@@ -1,5 +1,27 @@
 <div align="center">
 
+<img src="./profile/banner.svg" width="100%">
+
+</div>
+
+<br>
+
+<div align="center">
+
+<br>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=PROFILE+VIEWS&color=7AA2F7&style=for-the-badge">
+
+<img src="https://img.shields.io/github/followers/subhashishbudati9976-creator?label=FOLLOWERS&style=for-the-badge&color=9B6CFF">
+
+<img src="https://img.shields.io/github/stars/subhashishbudati9976-creator?label=STARS&style=for-the-badge&color=7AA2F7">
+
+<img src="https://img.shields.io/github/repo-size/subhashishbudati9976-creator/subhashishbudati9976-creator?label=PROFILE%20REPO&style=for-the-badge&color=9B6CFF">
+
+</div>
+
 <br>
 
 # 👋 WASSUP, I'M SUBHASHISH
@@ -10,13 +32,11 @@
 
 `CSE • AI • NLP • DEVOPS • SOFTWARE DEVELOPMENT`
 
-<br><br>
+<br>
 
 <i>Curious mind. Continuous learner. Always building.</i>
 
 <br>
-
-<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00ff9c&height=220&section=header&text=SUBHASHISH%20BUDDHATI&fontSize=48&fontColor=00ff9c&fontAlignY=38&desc=CSE%20Student%20%C2%B7%20Full-Stack%20Dev%20%C2%B7%20DevOps%20%26%20AI%20Integration&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/> <br/> <img src="https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=PROFILE%20VIEWS&color=0e75b6&style=for-the-badge" /> <img src="https://img.shields.io/github/followers/subhashishbudati9976-creator?label=FOLLOWERS&style=for-the-badge&color=2ea043" /> <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/subhashishbudati9976-creator&label=STARS&query=$.public_repos&style=for-the-badge&color=ffcc00" /> </div> <br/>
 
 `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
 
