@@ -151,6 +151,26 @@ automation, artificial intelligence, and deployment.
 </p>
 ---
 
+## 🌌 CONTRIBUTION UNIVERSE
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+
+</div>
+
+---
+
+## 🏆 GITHUB ACHIEVEMENTS
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=subhashishbudati9976-creator&theme=onedark&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=10" />
+
+</div>
+
+---
+
 ---
 
 ## 🚀 FEATURED PROJECTS
@@ -168,12 +188,3 @@ A collaborative content management system project.
 
 ---
 
-## 🌌 CONTRIBUTION UNIVERSE
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
-
-</div>
-
----
