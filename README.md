@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🌌 SUBHASHISH BUDATI
+# 👋 Wassup guys, I'm Subhashish
 
-### `CSE STUDENT` • `DEVELOPER` • `DEVOPS ENTHUSIAST`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&lines=CSE+Student+%7C+Developer;DevOps+%26+Cloud+Enthusiast;AI+%26+NLP+Explorer;Building+%7C+Learning+%7C+Deploying;Turning+Ideas+Into+Projects+%F0%9F%9A%80" />
 
-Building. Learning. Experimenting. 🚀
+<br>
 
-![](https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=PROFILE+VIEWS&color=BB86FC&style=for-the-badge)
+<i>Curious mind. Continuous learner. Always building.</i>
 
 </div>
 
