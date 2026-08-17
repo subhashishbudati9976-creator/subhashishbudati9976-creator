@@ -132,7 +132,7 @@ Building and working with SQL-based applications.
 
 <div align="center">
 
-<h3>🤖 AI-DRIVEN CHATBOT AS A VIRTUAL ASSISTANT</h3>
+### 🤖 AI-DRIVEN CHATBOT AS A VIRTUAL ASSISTANT
 
 <p>
 An AI-powered virtual assistant designed for intelligent conversational
@@ -147,17 +147,13 @@ and DevOps practices.
 
 <p>
 <a href="https://github.com/subhashishbudati9976-creator/AI-Driven-Chatbot-as-a-Virtual-Assistant">
-🔗 <b>View Project</b>
+🔗 <b>VIEW PROJECT</b>
 </a>
 </p>
 
 <br>
 
-<hr width="45%">
-
-<br>
-
-<h3>🚆 RAILWAY RESERVATION SYSTEM</h3>
+### 🚆 RAILWAY RESERVATION SYSTEM
 
 <p>
 A collaborative database-backed application implementing railway search,
@@ -170,16 +166,12 @@ reservation, cancellation, payment and administrative workflows.
 </p>
 
 <p>
-🔗 <b>Collaborative Academic Project</b>
+🔗 <b>COLLABORATIVE ACADEMIC PROJECT</b>
 </p>
 
 <br>
 
-<hr width="45%">
-
-<br>
-
-<h3>🛰️ ODA-CMS</h3>
+### 🛰️ ODA-CMS
 
 <p>
 A collaborative academic project focused on orbital data processing,
@@ -193,20 +185,16 @@ collision-risk analysis.
 </p>
 
 <p>
-🔗 <b>Collaborative Academic Project</b>
+🔗 <b>COLLABORATIVE ACADEMIC PROJECT</b>
 </p>
 
 <br>
 
-<hr width="45%">
-
-<br>
-
-<h3>🧪 MORE PROJECTS</h3>
+### 🧪 MORE PROJECTS
 
 <p>
-Currently building and experimenting with new projects across
-software development, AI, NLP and DevOps.
+Currently experimenting with new projects across software development,
+AI, NLP and DevOps.
 </p>
 
 <p>
@@ -229,6 +217,8 @@ software development, AI, NLP and DevOps.
 
 </div>
 
+<br>
+
 ---
 
 ## 🏆 GITHUB ACHIEVEMENTS
@@ -236,6 +226,10 @@ software development, AI, NLP and DevOps.
 <div align="center">
 
 <img src="./profile/trophy.svg" width="100%" />
+
+<br>
+
+<i>Small milestones. Continuous progress.</i>
 
 </div>
 
@@ -246,22 +240,22 @@ software development, AI, NLP and DevOps.
 <div align="center">
 
 <a href="https://www.linkedin.com/in/subhashish-budati-685664427" target="_blank">
-<img src="https://skillicons.dev/icons?i=linkedin" width="50"><br>
-<b>Subhashish Budati</b>
+<img src="https://skillicons.dev/icons?i=linkedin" width="45"><br>
+<b>LinkedIn</b>
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://github.com/subhashishbudati9976-creator" target="_blank">
-<img src="https://skillicons.dev/icons?i=github&theme=dark" width="50"><br>
-<b>subhashishbudati9976-creator</b>
+<img src="https://skillicons.dev/icons?i=github&theme=dark" width="45"><br>
+<b>GitHub</b>
 </a>
 
-</div><br>
+<br><br>
 
-<p align="center">
 <i>Let's connect, collaborate, and build something meaningful.</i>
-</p>
+
+</div>
 
 ---
 
