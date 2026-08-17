@@ -44,11 +44,19 @@
 
 ## 👨‍💻 ABOUT ME
 
-I'm Subhashish Budati, a Computer Science Engineering student passionate about software
-development, DevOps, AI, and building practical projects.
+<div align="center">
 
-Currently exploring the intersection of software development,
-automation, artificial intelligence, and deployment.
+I'm Subhashish Budati, a Computer Science Engineering student who enjoys turning ideas
+into practical projects and learning how the systems behind them work.
+
+I'm currently exploring **AI, NLP, DevOps, automation, and software development**,
+while strengthening my foundations in **DSA, databases, and programming**.
+
+<br>
+
+💡 Build → 🧪 Experiment → 🔧 Debug → 🚀 Deploy → 📚 Learn
+
+</div>
 
 ---
 
