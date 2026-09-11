@@ -2,9 +2,7 @@
 
 <img src="./profile/banner.svg" width="100%">
 
-<br>
-
-<img src="./profile/ezgif.com-gif-maker.gif" width="420">
+<img src="./profile/ezgif.com-gif-maker.gif" width="300">
 
 <br><br>
 
