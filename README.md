@@ -2,6 +2,10 @@
 
 <img src="./profile/banner.svg" width="100%">
 
+<br>
+
+<img src="./profile/hero_portrait_line_reveal.gif" width="420">
+
 <br><br>
 
 <img src="https://komarev.com/ghpvc/?username=subhashishbudati9976-creator&label=PROFILE+VIEWS&color=7AA2F7&style=for-the-badge">
