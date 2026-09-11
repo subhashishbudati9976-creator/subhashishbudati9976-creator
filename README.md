@@ -2,7 +2,7 @@
 
 <img src="./profile/banner.svg" width="100%">
 
-<img src="./aurora_portrait_animated.gif" width="300">
+<img src="./aurora_portrait_animated.gif" width="400">
 
 <br><br>
 
