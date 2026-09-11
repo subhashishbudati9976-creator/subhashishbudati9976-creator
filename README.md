@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="./profile/hero_portrait_line_reveal.gif" width="420">
+<img src="./profile/ezgif.com-gif-maker.gif" width="420">
 
 <br><br>
 
