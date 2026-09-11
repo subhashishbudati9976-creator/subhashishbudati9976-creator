@@ -1,1 +1,43 @@
+name: Update GitHub Trophies
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-trophy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth:  
+
+      - name: Generate custom trophy
+        run: |
+          python .github/scripts/generate-trophy.py
+
+      - name: Commit trophy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add trophy.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes detected in trophy.svg"
+            exit 0
+          fi
+
+          git commit -m "🏆 Update GitHub trophy"
+
+          git pull --rebase origin main
+
+          git push origin main
