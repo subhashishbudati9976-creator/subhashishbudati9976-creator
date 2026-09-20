@@ -18,9 +18,9 @@ viewBox="0 0 1100 460">
         x1="0%" y1="0%"
         x2="100%" y2="100%">
 
-        <stop offset="0%" stop-color="#e2e8f0"/>
-        <stop offset="50%" stop-color="#94a3b8"/>
-        <stop offset="100%" stop-color="#475569"/>
+        <stop offset="0%" stop-color="#fef08a"/>
+        <stop offset="50%" stop-color="#facc15"/>
+        <stop offset="100%" stop-color="#a16207"/>
 
     </linearGradient>
 
@@ -187,12 +187,12 @@ viewBox="0 0 1100 460">
     x="810"
     y="155"
     text-anchor="middle"
-    fill="#94a3b8"
+    fill="#facc15"
     font-family="Arial, Helvetica, sans-serif"
     font-size="30"
     font-weight="700">
 
-    BUILDER
+    RISING STAR
 
 </text>
 
@@ -205,7 +205,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="20">
 
-    Activity Score: 69
+    Activity Score: 84
 
 </text>
 
@@ -224,7 +224,7 @@ viewBox="0 0 1100 460">
 <rect
     x="660"
     y="210"
-    width="246.4"
+    width="33.6"
     height="15"
     rx="8"
     fill="url(#trophy)"/>
@@ -237,7 +237,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
 
-    88%
+    12%
 
 </text>
 
@@ -250,7 +250,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="15">
 
-    Next Rank: RISING STAR
+    Next Rank: MASTER
 
 </text>
 
@@ -265,7 +265,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="17">
 
-    Repositories: 12
+    Repositories: 18
 
 </text>
 
@@ -278,7 +278,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="17">
 
-    Followers: 10
+    Followers: 11
 
 </text>
 
@@ -319,7 +319,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
 
-    Automatically updated • 2026-09-13
+    Automatically updated • 2026-09-20
 
 </text>
 
