@@ -205,7 +205,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="20">
 
-    Activity Score: 84
+    Activity Score: 89
 
 </text>
 
@@ -224,7 +224,7 @@ viewBox="0 0 1100 460">
 <rect
     x="660"
     y="210"
-    width="33.6"
+    width="50.4"
     height="15"
     rx="8"
     fill="url(#trophy)"/>
@@ -237,7 +237,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
 
-    12%
+    18%
 
 </text>
 
@@ -291,7 +291,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="17">
 
-    Stars: 3
+    Stars: 4
 
 </text>
 
@@ -319,7 +319,7 @@ viewBox="0 0 1100 460">
     font-family="Arial, Helvetica, sans-serif"
     font-size="14">
 
-    Automatically updated • 2026-09-20
+    Automatically updated • 2026-09-27
 
 </text>
 
