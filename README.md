@@ -71,13 +71,13 @@ BUILD → EXPERIMENT → DEBUG → DEPLOY → LEARN
 💻 LANGUAGES<br>
 <img src="https://skillicons.dev/icons?i=c,python,java,mysql&theme=dark">
 
-⚙️ DEVELOPMENT
+⚙️ DEVELOPMENT<br>
 <img src="https://skillicons.dev/icons?i=html,css,git,github,vscode&theme=dark">
 
-🚀 DEVOPS
+🚀 DEVOPS<br>
 <img src="https://skillicons.dev/icons?i=docker,jenkins,githubactions&theme=dark">
 
-🤖 AI / DATA
+🤖 AI / DATA<br>
 NLP • Data Analysis
 </div>
  
