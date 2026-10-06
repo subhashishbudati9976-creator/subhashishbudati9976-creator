@@ -68,23 +68,23 @@ BUILD → EXPERIMENT → DEBUG → DEPLOY → LEARN
 
 <div align="center">
 
-💻 LANGUAGES<br>
+💻 LANGUAGES<br><br>
 <img src="https://skillicons.dev/icons?i=c,python,java,mysql&theme=dark">
 
-⚙️ DEVELOPMENT<br>
+⚙️ DEVELOPMENT<br><br>
 <img src="https://skillicons.dev/icons?i=html,css,git,github,vscode&theme=dark">
 
-🚀 DEVOPS<br>
+🚀 DEVOPS<br><br>
 <img src="https://skillicons.dev/icons?i=docker,jenkins,githubactions&theme=dark">
 
-🤖 AI / DATA<br>
+🤖 AI / DATA<br><br>
 NLP • Data Analysis
 </div>
  
  --- 
 
 ## 🚀 FEATURED PROJECTS
-🏦 AVENUE
+🏦 **AVENUE**<br>
 Intelligent Branch Service Load & Customer Experience Optimizer
 A data-driven platform designed to analyze branch workload, detect service bottlenecks and support operational decision-making.
 Focus areas
@@ -95,20 +95,23 @@ Focus areas
 - Simulation
 - Customer feedback analysis
 Python Data Analysis Machine Learning FastAPI React Docker
-View Project
-🤖 AI-DRIVEN CHATBOT
+View Project<br>
+**🤖 AI-DRIVEN CHATBOT**<br>
 AI-Powered Virtual Assistant
 A containerized conversational AI application integrating the Gemini API with a database-backed backend and DevOps automation.
 Python Gemini API SQLite Docker Jenkins GitHub Actions
-View Project
-🛰️ ODA-CMS
+View Project<br>
+**🛰️ ODA-CMS**<br>
 Orbital Data Processing & Visualization
 A collaborative academic project focused on orbital data processing, simulation, visualization and collision-risk analysis.
-Python React FastAPI PostgreSQL WebGL
-🚆 RAILWAY RESERVATION SYSTEM
+Python React FastAPI PostgreSQL WebGL<br>
+**🚆 RAILWAY RESERVATION SYSTEM**<br>
 A collaborative database-backed application implementing railway search, reservation, cancellation, payment and administrative workflows.
-HTML CSS JavaScript PostgreSQL Supabase
-🌌 GITHUB ACTIVITY
+HTML CSS JavaScript PostgreSQL Supabase<br>
+
+---
+
+## 🌌 GITHUB ACTIVITY
 <div align="center">
 
 <img
