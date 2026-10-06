@@ -84,7 +84,7 @@ NLP • Data Analysis
  --- 
 
 ## 🚀 FEATURED PROJECTS
-🏦 **AVENUE**<br>
+**🏦 AVENUE**<br>
 Intelligent Branch Service Load & Customer Experience Optimizer
 A data-driven platform designed to analyze branch workload, detect service bottlenecks and support operational decision-making.
 Focus areas
@@ -96,6 +96,7 @@ Focus areas
 - Customer feedback analysis
 Python Data Analysis Machine Learning FastAPI React Docker
 View Project<br>
+
 **🤖 AI-DRIVEN CHATBOT**<br>
 AI-Powered Virtual Assistant
 A containerized conversational AI application integrating the Gemini API with a database-backed backend and DevOps automation.
@@ -115,9 +116,9 @@ HTML CSS JavaScript PostgreSQL Supabase<br>
 <div align="center">
 
 <img
-  src="./profile/contribution-heatmap.svg"
+  src="./profile-3d-contrib/profile-night-rainbow.svg"
   width="100%"
-  alt="Contribution heatmap"
+  alt="Contribution universe"
 />
 
 <i>Every contribution is a step forward.</i>
