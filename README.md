@@ -21,7 +21,7 @@
 
 <td valign="top">
 <img
-  src="./profile/ascii-portrait.svg"
+  src="./profile/ascii-portrait-v2.svg"
   width="370"
   alt="ASCII portrait"
 />
