@@ -68,7 +68,7 @@ BUILD → EXPERIMENT → DEBUG → DEPLOY → LEARN
 
 <div align="center">
 
-💻 LANGUAGES
+💻 LANGUAGES<br>
 <img src="https://skillicons.dev/icons?i=c,python,java,mysql&theme=dark">
 
 ⚙️ DEVELOPMENT
