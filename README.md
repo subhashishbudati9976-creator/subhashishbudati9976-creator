@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="./profile/banner.svg" width="100%">
-
-<br><br>
-
 <h3>
 <code>subhashish@github ~ $ thisiswhoiam</code>
 </h3>
@@ -43,13 +39,15 @@
 <code>CSE • AI • NLP • DEVOPS • SOFTWARE DEVELOPMENT</code>
 
 <br>
-
 <img
   src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&lines=BUILDING+%7C+LEARNING+%7C+DEPLOYING;AI+%26+NLP+EXPLORER;DEVOPS+%26+AUTOMATION+ENTHUSIAST"
   alt="Typing animation"
 />
-
 </div>
+
+<img src="./profile/banner.svg" width="100%">
+
+<br>
 
 ---
 
